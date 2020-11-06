@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>호그와트AU 프로필</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">호그와트 AU 프로필</a></h1>
+  <input type="button" value="night" onclick="
+  var target= document.querySelector('body')
+  if(this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day';
+  }else{
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value = 'night';
+  }
+  ">
+<div id="grid">
+  <ol>
+    <li><a href="1.html">스노우 화이트</a></li>
+    <li><a href="2.html">엘라 하우저</a></li>
+  </ol>
+  <div id="snow">
+<h2>스노우 화이트</h2>
+<p>
+  영원히 철이 안들 예정, 곱게 컸으며 타고난 지능이 높아 실수를 하지 않는다. 마법세계에서 유명한 어둠의 마법 광신도 집안 외동딸. 그녀는 자라온 환경의 영향으로 저주에 해박하다. 재혼가정에 새엄마와 사이가 나쁘며 일방적으로 미움을 받고 자라왔다. 집안의 가호로 뭘 해도 잘 살 것이다. 그녀는 순혈이지만 머글에 관심이 많다. 그녀가 머글을 차별하진 않아도 몸에 베여있는 기득권적인 자세가 갈등을 불러일으킨다. 해맑고 대접받는 것이 익숙하다. 아끼는 집요정 7마리가 있다. 요정들은 그녀에게 충성을 맹세했다. 동물이 꼬이는 체질이며 그중에 작은 새, 토끼, 사슴을 아낀다.
+</p>
+<p>
+</div>
+   </div>
+   <input id="day_night" type="button" value="night" onclick="
+   if(document.querySelector('#day_night').value === 'night'){
+     document.querySelector('body').style.backgroundColor = 'black';
+     document.querySelector('body').style.color = 'white';
+     document.querySelector('#day_night').value = 'day';
+   }else{
+     document.querySelector('body').style.backgroundColor = 'white';
+     document.querySelector('body').style.color = 'black';
+     document.querySelector('#day_night').value = 'night';
+   }
+   ">
+</body>
+</html>

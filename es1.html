@@ -1,0 +1,41 @@
+</<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    #N__D {
+      border: solid 3px red;
+      padding: 50px;
+      margin-left: 900px;
+    }
+    h1, p {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+<input id="N__D" type="button" value="N" onclick="
+var target=document.querySelector('body')
+if(this.value === 'N') {
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value='D';
+} else {
+  target.style.backgroundColor='white';
+  target.style.color='black';
+  this.value='N';
+}
+">
+<h1>자바스크립트는</h1>
+<p>정말 거지같다...</p>
+<h2>배열 복습</h2>
+<script>
+var tangle = ['Cassandra','Ranpunzel']
+document.write(tangle[0])
+document.write(tangle[1])
+document.write(tangle.length)
+document.write(tangle[1].length)
+</script>
+  </body>
+</html>
